@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector - Contextual</title>
+    <style type="text/css">
+       h1{color: #cc3366;}
+       div{color: #3549fa;}
+       p{color: #66cc66}
+       li div{
+           background-color:#b96f88;
+           margin: 5px;
+       }
+       li > div{
+           font-style: italic;
+           font-weight:bold;
+           padding: 10px}
+        div * {
+            border: 1px solid #cc3366;
+        }
+        div span {background-color: #cc3366;}
+    </style>
+</head>
+<body>
+    <h1>SELECTOR - Contextual</h1>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nemo natus repellendus sit voluptatibus voluptates aut ipsum numquam ratione libero commodi a at dolorem odit similique, quis sapiente nostrum consectetur.</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestiae eaque provident magni voluptas eos non ratione asperiores illo maiores ducimus, tempore delectus voluptates culpa distinctio deserunt ea earum saepe.</p>
+<p>Architecto reiciendis neque rerum velit, aperiam aliquid possimus ut, consequuntur dolor iusto non error praesentium blanditiis quos natus iste, quae veritatis eos corrupti. Dolorum eaque officia sequi tenetur quod impedit.</p>
+<ul>
+    <li>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum laboriosam tenetur rem at. Amet sunt nihil, voluptate soluta, sed iste quam consequatur magni minus fuga facere aliquam mollitia, illo pariatur.</div>
+    </li>
+    <li>
+        <div>Provident accusamus animi voluptatibus hic aliquid error reiciendis voluptatum soluta harum ratione ad quidem, id nesciunt aspernatur sunt. Blanditiis debitis eligendi perspiciatis, temporibus recusandae soluta libero nostrum officiis accusantium nam.</div>
+    </li>
+    <li>
+        <div>Necessitatibus perspiciatis a quia? A sunt natus ea quis ad explicabo impedit alias, reiciendis repellat consequatur nulla ipsum est eveniet doloribus commodi fugiat fugit possimus inventore optio, nisi perferendis itaque.</div>
+    </li>
+    <li>
+        <section>
+            <div>Section --> DIV </div>
+        </section>
+    </li>
+</ul>
+<div><b>Lorem</b> ipsum dolor sit amet <i>consectetur</i> adipisicing elit. Minus sit id voluptatibus velit <span>reprehenderit</span> earum saepe deleniti optio doloremque impedit repellendus dolore, provident qui reiciendis molestiae veritatis sequi excepturi blanditiis!</div>
+</body>
+</html>
