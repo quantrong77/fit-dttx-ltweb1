@@ -4,7 +4,8 @@ body{
 }
 #container{
     background-color: #009688;
-    min-height: 100vh;
+    margin-bottom: 50px;
+   /* min-height: 100vh;*/
     /*width: 80%;*/
     /*margin: 0 auto;*/
 }
@@ -23,7 +24,7 @@ body{
 }
 #content{
     background-color:#8bc34a;
-    min-height: 300px;
+    min-height: 1000px;
     width: 60%;
     float:left;
 }
@@ -70,4 +71,14 @@ body{
 .sub-menu li:hover{
     background-color: #ffc107;
     color:#000;
+}
+.ad{
+    width: 100%;
+    background-color: #e91e63;
+    color:#fff;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
 }
